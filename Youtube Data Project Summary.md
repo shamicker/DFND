@@ -36,7 +36,7 @@ Interestingly:
 
 ## [Likes vs Dislikes + Comments - 3 levels](https://public.tableau.com/profile/shauna4074#!/vizhome/YoutubeUserInteraction-3levels/LikesvsDislikesCommentCounts)
 
-Finally, I wanted to see the ratio of likes to dislikes, as well as the number of comments per Title, Channel, and Category.  I wanted to create a dashboard similar to [this one](https://public.tableau.com/shared/KMTHF8NH5?:display_count=yes), but I couldn't figure it out the hierarchy choices (yet). Instead, I opted for a scatter plot with color showing the number of comments. Again, I chose a gradient for the same reason - it presents the range of data without being too over-the-top and is good for color-blind people.
+Finally, I wanted to see the ratio of likes to dislikes, as well as the number of comments per Title, Channel, and Category.  I wanted to create a dashboard similar to __*[this one]*__(https://public.tableau.com/shared/KMTHF8NH5?:display_count=yes), but I couldn't figure it out the hierarchy choices (yet). Instead, I opted for a scatter plot with color showing the number of comments. Again, I chose a gradient for the same reason - it presents the range of data without being too over-the-top and is good for color-blind people.
 
 In this triple chart, you'll notice that the number of likes in all 3 charts are significantly higher than the number of dislikes. Note that the vertical axis scale goes much higher than the horizontal axis.
 
