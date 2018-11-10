@@ -8,6 +8,8 @@ The first visualization is a map of the number of video uploads per category per
 
 First up, I always like to map something if I can. The mapping coordinates are based on the upload location, so this is a map of the number of distinct uploaded titles per Category. 
 
+The bar chart was included for easier access to specific details; they're great for rankings. The color palette was pretty standard; gradients of blue gives enough definition to each category without being too much, and still remains a good choice for accessibility.
+
 From the map, you'll immediately note that California (CA) has the most number of uploads (567 distinct titles). It's not really visible, but Vermont (VT) and Mississippi (MS) has the least, at 2.
 
 From the bar chart on the right, you'll see that Entertainment is the most uploaded category (1,045), and Shows is the least (2). 
@@ -19,9 +21,11 @@ If you click around, you'll see some interesting things. 3 of them are:
 
 ## [Views - 3 levels](https://public.tableau.com/views/YoutubeViews/TotalViews?:embed=y&:display_count=yes)
 
-The second insight is the number of times videos have been viewed - by Category, Channel and per video's Title. I have colored the categories to give an idea of their distribution across the titles and channels; the color legend is simply Views per Category sorted alphabetically (which you can change if you click on the tiny popup when hovering over "Views" under the Category chart).
+The second insight is the number of times videos have been viewed - by Category, Channel and per video's Title. The bubble chart gives an idea of the breadth of views; I wanted to emphasize how much more views there are for certain videos than the majority. Because there is so much information in it, the 2 bar charts show the Category and Channel rankings in a much more accessible way. 
 
-You'll probably notice first, in the bubbles, that *YouTube Rewind: The Shape of 2017* looks to be the most watched video title (size correlates to the sum of views), followed by the *Marvel Studios' Avengers: Infinity War Official Trailer* (780 million and 669 million views, respectively).
+The categories are colored to give an idea of their distribution across the titles and channels. The palette would have been blue but since, as a set with the other visualizations, it shows different information, I thought gradients of yellow to green would be suitable while maintaining accessibility. The color legend is simply Views per Category sorted alphabetically (which you can change if you click on the tiny popup when hovering over "Views" under the Category chart). 
+
+You'll probably notice first, in the bubbles, that the majority of videos have a relatively small number of views, as well as spanning the 16 Categories. The size of the large bubbles, which correlates to the sum of views, is significant in comparison! *YouTube Rewind: The Shape of 2017* looks to be the most watched video title ), followed by the *Marvel Studios' Avengers: Infinity War Official Trailer* (780 million and 669 million views, respectively).
 
 The most-viewed category is Music and then Entertainment, with about 8.8 billion views and 7 billion views respectively. There's a very sharp drop after that. The channel that has the most views is Marvel Entertainment (904 million).
 
@@ -32,7 +36,7 @@ Interestingly:
 
 ## [Likes vs Dislikes + Comments - 3 levels](https://public.tableau.com/profile/shauna4074#!/vizhome/YoutubeUserInteraction-3levels/LikesvsDislikesCommentCounts)
 
-Finally, I wanted to see the ratio of likes to dislikes, as well as the number of comments per Title, Channel, and Category.  I wanted to create a dashboard similar to [this one](https://public.tableau.com/shared/KMTHF8NH5?:display_count=yes), but I couldn't figure it out the hierarchy choices (yet).
+Finally, I wanted to see the ratio of likes to dislikes, as well as the number of comments per Title, Channel, and Category.  I wanted to create a dashboard similar to [this one](https://public.tableau.com/shared/KMTHF8NH5?:display_count=yes), but I couldn't figure it out the hierarchy choices (yet). Instead, I opted for a scatter plot with color showing the number of comments. Again, I chose a gradient for the same reason - it presents the range of data without being too over-the-top and is good for color-blind people.
 
 In this triple chart, you'll notice that the number of likes in all 3 charts are significantly higher than the number of dislikes. Note that the vertical axis scale goes much higher than the horizontal axis.
 
