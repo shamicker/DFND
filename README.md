@@ -1,4 +1,4 @@
-# Youtube Data Project Summary
+# Youtube - User Interactions
 
 I am interested in the Youtube user interactions. Each record in the data is a day of trending per video. The data has also been restricted to the United States, and from a period between July 23, 2006 to March 19, 2018.
 
