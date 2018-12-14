@@ -1,10 +1,14 @@
 # Youtube - User Interactions
 
+Please follow the title links to the public, interactive dashboard on Tableau.
+
 I am interested in the Youtube user interactions. Each record in the data is a day of trending per video. The data has also been restricted to the United States, and from a period between July 23, 2006 to March 19, 2018.
 
 The first visualization is a map of the number of video uploads per category per state. The second is the number of times the videos were viewed, seen at 3 different levels (individual videos, the channel, and the category). The third is the number of likes, dislikes, and comments received, also at the 3 different levels.
 
 ## [Categories per US State](https://public.tableau.com/views/YoutubeCategoriesperState/YoutubeCategoriesperState?:embed=y&:display_count=yes)
+
+![Image of Categories per State](https://raw.githubusercontent.com/shamicker/Youtube-user-interactions/master/categories-per-state.jpg)
 
 First up, I always like to map something if I can. The mapping coordinates are based on the upload location, so this is a map of the number of distinct uploaded titles per Category. 
 
@@ -21,6 +25,8 @@ If you click around, you'll see some interesting things. 3 of them are:
 
 ## [Views - 3 levels](https://public.tableau.com/views/YoutubeViews/TotalViews?:embed=y&:display_count=yes)
 
+![Image of Number of Views](https://raw.githubusercontent.com/shamicker/Youtube-user-interactions/master/number_of_views.jpg)
+
 The second insight is the number of times videos have been viewed - by Category, Channel and per video's Title. The bubble chart gives an idea of the breadth of views; I wanted to emphasize how much more views there are for certain videos than the majority. Because there is so much information in it, the 2 bar charts show the Category and Channel rankings in a much more accessible way. 
 
 The categories are colored to give an idea of their distribution across the titles and channels. The palette would have been blue but since, as a set with the other visualizations, it shows different information, I thought gradients of yellow to green would be suitable while maintaining accessibility. The color legend is simply Views per Category sorted alphabetically (which you can change if you click on the tiny popup when hovering over "Views" under the Category chart). 
@@ -35,6 +41,8 @@ Interestingly:
 - From the previous visualization, we know that the 2 videos in the Shows category are from Hawaii. If we isolate this category, we see the 2 titles are about Apple products from the CNET channel. When only the CNET channel is isolated (and all categories viewed), we see that all these videos are on 2 channels (Shows, and Science & Technology). If you verify with the Categories per State dashboard, you'll note that these videos are indeed all from Hawaii.
 
 ## [Likes vs Dislikes + Comments - 3 levels](https://public.tableau.com/profile/shauna4074#!/vizhome/YoutubeUserInteraction-3levels/LikesvsDislikesCommentCounts)
+
+![Image of Likes, Dislikes, Comments](https://raw.githubusercontent.com/shamicker/Youtube-user-interactions/master/likes_dislikes_comments.jpg)
 
 Finally, I wanted to see the ratio of likes to dislikes, as well as the number of comments per Title, Channel, and Category.  I wanted to create a dashboard similar to __*[this one]*__(https://public.tableau.com/shared/KMTHF8NH5?:display_count=yes), but I couldn't figure it out the hierarchy choices (yet). Instead, I opted for a scatter plot with color showing the number of comments. Again, I chose a gradient for the same reason - it presents the range of data without being too over-the-top and is good for color-blind people.
 
